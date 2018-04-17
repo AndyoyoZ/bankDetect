@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 #setOpenCV_DIR
-set(OpenCV_DIR "/home/andyoyo/opencv/opencv-master/build")
+#set(OpenCV_DIR "/home/andyoyo/opencv/opencv-master/build")
 
 project(map_PS)
 
