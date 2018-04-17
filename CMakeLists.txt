@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 #setOpenCV_DIR
 #set(OpenCV_DIR "/home/andyoyo/opencv/opencv-master/build")
 
-project(bankSegment)
+project(bankDetect)
 find_package( OpenCV REQUIRED)
 
 #print OpenCV_VERSION on terminal
@@ -16,5 +16,5 @@ endif(NOT WIN32)
 include_directories(src) 
 FILE(GLOB_RECURSE sourcefiles "src/*.cpp")
 
-add_executable(bankSegment ${sourcefiles} )
-target_link_libraries(bankSegment ${OpenCV_LIBS})
+add_executable(bankDetect ${sourcefiles} )
+target_link_libraries(bankDetect ${OpenCV_LIBS})
