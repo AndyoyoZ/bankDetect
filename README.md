@@ -1,4 +1,4 @@
-# bankSegment
+# bankDetect
 
-Bank segment with Lab and RANSAC
+Bank detect with Lab and RANSAC
 
